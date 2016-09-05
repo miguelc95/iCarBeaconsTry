@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31BA684F1D7E0926008B49E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31BA684E1D7E0926008B49E7 /* Assets.xcassets */; };
+		31BA685D1D7E0927008B49E7 /* iCarBeaconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA685C1D7E0927008B49E7 /* iCarBeaconsTests.swift */; };
+		31BA68681D7E0927008B49E7 /* iCarBeaconsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA68671D7E0927008B49E7 /* iCarBeaconsUITests.swift */; };
+		31BA68761D7E098F008B49E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA68751D7E098F008B49E7 /* AppDelegate.swift */; };
+		31BA68781D7E09A8008B49E7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31BA68771D7E09A8008B49E7 /* Info.plist */; };
+		31BA687B1D7E09C1008B49E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BA687A1D7E09C1008B49E7 /* ViewController.swift */; };
+		31BA687D1D7E09CF008B49E7 /* Estimote in Resources */ = {isa = PBXBuildFile; fileRef = 31BA687C1D7E09CF008B49E7 /* Estimote */; };
+		31BA687F1D7E0A0D008B49E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BA687E1D7E0A0D008B49E7 /* LaunchScreen.storyboard */; };
+		31BA68811D7E0A17008B49E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31BA68801D7E0A17008B49E7 /* Main.storyboard */; };
+		31BA68831D7E0A3B008B49E7 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BA68821D7E0A3B008B49E7 /* EstimoteSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31BA68591D7E0927008B49E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BA683C1D7E0926008B49E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BA68431D7E0926008B49E7;
+			remoteInfo = iCarBeacons;
+		};
+		31BA68641D7E0927008B49E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 31BA683C1D7E0926008B49E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31BA68431D7E0926008B49E7;
+			remoteInfo = iCarBeacons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31BA68441D7E0926008B49E7 /* iCarBeacons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCarBeacons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA684E1D7E0926008B49E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		31BA68581D7E0927008B49E7 /* iCarBeaconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarBeaconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA685C1D7E0927008B49E7 /* iCarBeaconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCarBeaconsTests.swift; sourceTree = "<group>"; };
+		31BA685E1D7E0927008B49E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BA68631D7E0927008B49E7 /* iCarBeaconsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iCarBeaconsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BA68671D7E0927008B49E7 /* iCarBeaconsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCarBeaconsUITests.swift; sourceTree = "<group>"; };
+		31BA68691D7E0927008B49E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BA68751D7E098F008B49E7 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		31BA68771D7E09A8008B49E7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31BA68791D7E09AF008B49E7 /* ObjCBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ObjCBridge.h; path = ../ObjCBridge.h; sourceTree = "<group>"; };
+		31BA687A1D7E09C1008B49E7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		31BA687C1D7E09CF008B49E7 /* Estimote */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Estimote; sourceTree = "<group>"; };
+		31BA687E1D7E0A0D008B49E7 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		31BA68801D7E0A17008B49E7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		31BA68821D7E0A3B008B49E7 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EstimoteSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BA68411D7E0926008B49E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA68831D7E0A3B008B49E7 /* EstimoteSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA68551D7E0927008B49E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA68601D7E0927008B49E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31BA683B1D7E0926008B49E7 = {
+			isa = PBXGroup;
+			children = (
+				31BA68461D7E0926008B49E7 /* iCarBeacons */,
+				31BA68771D7E09A8008B49E7 /* Info.plist */,
+				31BA687C1D7E09CF008B49E7 /* Estimote */,
+				31BA685B1D7E0927008B49E7 /* iCarBeaconsTests */,
+				31BA68661D7E0927008B49E7 /* iCarBeaconsUITests */,
+				31BA68451D7E0926008B49E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BA68451D7E0926008B49E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BA68441D7E0926008B49E7 /* iCarBeacons.app */,
+				31BA68581D7E0927008B49E7 /* iCarBeaconsTests.xctest */,
+				31BA68631D7E0927008B49E7 /* iCarBeaconsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BA68461D7E0926008B49E7 /* iCarBeacons */ = {
+			isa = PBXGroup;
+			children = (
+				31BA684E1D7E0926008B49E7 /* Assets.xcassets */,
+				31BA68801D7E0A17008B49E7 /* Main.storyboard */,
+				31BA68751D7E098F008B49E7 /* AppDelegate.swift */,
+				31BA687A1D7E09C1008B49E7 /* ViewController.swift */,
+				31BA687E1D7E0A0D008B49E7 /* LaunchScreen.storyboard */,
+				31BA68791D7E09AF008B49E7 /* ObjCBridge.h */,
+				31BA68821D7E0A3B008B49E7 /* EstimoteSDK.framework */,
+			);
+			path = iCarBeacons;
+			sourceTree = "<group>";
+		};
+		31BA685B1D7E0927008B49E7 /* iCarBeaconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				31BA685C1D7E0927008B49E7 /* iCarBeaconsTests.swift */,
+				31BA685E1D7E0927008B49E7 /* Info.plist */,
+			);
+			path = iCarBeaconsTests;
+			sourceTree = "<group>";
+		};
+		31BA68661D7E0927008B49E7 /* iCarBeaconsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				31BA68671D7E0927008B49E7 /* iCarBeaconsUITests.swift */,
+				31BA68691D7E0927008B49E7 /* Info.plist */,
+			);
+			path = iCarBeaconsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BA68431D7E0926008B49E7 /* iCarBeacons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BA686C1D7E0927008B49E7 /* Build configuration list for PBXNativeTarget "iCarBeacons" */;
+			buildPhases = (
+				31BA68401D7E0926008B49E7 /* Sources */,
+				31BA68411D7E0926008B49E7 /* Frameworks */,
+				31BA68421D7E0926008B49E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarBeacons;
+			productName = iCarBeacons;
+			productReference = 31BA68441D7E0926008B49E7 /* iCarBeacons.app */;
+			productType = "com.apple.product-type.application";
+		};
+		31BA68571D7E0927008B49E7 /* iCarBeaconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BA686F1D7E0927008B49E7 /* Build configuration list for PBXNativeTarget "iCarBeaconsTests" */;
+			buildPhases = (
+				31BA68541D7E0927008B49E7 /* Sources */,
+				31BA68551D7E0927008B49E7 /* Frameworks */,
+				31BA68561D7E0927008B49E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BA685A1D7E0927008B49E7 /* PBXTargetDependency */,
+			);
+			name = iCarBeaconsTests;
+			productName = iCarBeaconsTests;
+			productReference = 31BA68581D7E0927008B49E7 /* iCarBeaconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		31BA68621D7E0927008B49E7 /* iCarBeaconsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BA68721D7E0927008B49E7 /* Build configuration list for PBXNativeTarget "iCarBeaconsUITests" */;
+			buildPhases = (
+				31BA685F1D7E0927008B49E7 /* Sources */,
+				31BA68601D7E0927008B49E7 /* Frameworks */,
+				31BA68611D7E0927008B49E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31BA68651D7E0927008B49E7 /* PBXTargetDependency */,
+			);
+			name = iCarBeaconsUITests;
+			productName = iCarBeaconsUITests;
+			productReference = 31BA68631D7E0927008B49E7 /* iCarBeaconsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BA683C1D7E0926008B49E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miguel Cuellar";
+				TargetAttributes = {
+					31BA68431D7E0926008B49E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					31BA68571D7E0927008B49E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31BA68431D7E0926008B49E7;
+					};
+					31BA68621D7E0927008B49E7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 31BA68431D7E0926008B49E7;
+					};
+				};
+			};
+			buildConfigurationList = 31BA683F1D7E0926008B49E7 /* Build configuration list for PBXProject "iCarBeacons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 31BA683B1D7E0926008B49E7;
+			productRefGroup = 31BA68451D7E0926008B49E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BA68431D7E0926008B49E7 /* iCarBeacons */,
+				31BA68571D7E0927008B49E7 /* iCarBeaconsTests */,
+				31BA68621D7E0927008B49E7 /* iCarBeaconsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BA68421D7E0926008B49E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA68781D7E09A8008B49E7 /* Info.plist in Resources */,
+				31BA68811D7E0A17008B49E7 /* Main.storyboard in Resources */,
+				31BA687D1D7E09CF008B49E7 /* Estimote in Resources */,
+				31BA684F1D7E0926008B49E7 /* Assets.xcassets in Resources */,
+				31BA687F1D7E0A0D008B49E7 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA68561D7E0927008B49E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA68611D7E0927008B49E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BA68401D7E0926008B49E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA687B1D7E09C1008B49E7 /* ViewController.swift in Sources */,
+				31BA68761D7E098F008B49E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA68541D7E0927008B49E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA685D1D7E0927008B49E7 /* iCarBeaconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31BA685F1D7E0927008B49E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BA68681D7E0927008B49E7 /* iCarBeaconsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		31BA685A1D7E0927008B49E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BA68431D7E0926008B49E7 /* iCarBeacons */;
+			targetProxy = 31BA68591D7E0927008B49E7 /* PBXContainerItemProxy */;
+		};
+		31BA68651D7E0927008B49E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 31BA68431D7E0926008B49E7 /* iCarBeacons */;
+			targetProxy = 31BA68641D7E0927008B49E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31BA686A1D7E0927008B49E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31BA686B1D7E0927008B49E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		31BA686D1D7E0927008B49E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iCarBeacons",
+				);
+				INFOPLIST_FILE = iCarBeacons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.iCarBeacons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ObjCBridge.h;
+			};
+			name = Debug;
+		};
+		31BA686E1D7E0927008B49E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iCarBeacons",
+				);
+				INFOPLIST_FILE = iCarBeacons/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.iCarBeacons;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ObjCBridge.h;
+			};
+			name = Release;
+		};
+		31BA68701D7E0927008B49E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCarBeaconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.iCarBeaconsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCarBeacons.app/iCarBeacons";
+			};
+			name = Debug;
+		};
+		31BA68711D7E0927008B49E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iCarBeaconsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.iCarBeaconsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iCarBeacons.app/iCarBeacons";
+			};
+			name = Release;
+		};
+		31BA68731D7E0927008B49E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iCarBeaconsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.iCarBeaconsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCarBeacons;
+			};
+			name = Debug;
+		};
+		31BA68741D7E0927008B49E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iCarBeaconsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mc.iCarBeaconsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iCarBeacons;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BA683F1D7E0926008B49E7 /* Build configuration list for PBXProject "iCarBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA686A1D7E0927008B49E7 /* Debug */,
+				31BA686B1D7E0927008B49E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BA686C1D7E0927008B49E7 /* Build configuration list for PBXNativeTarget "iCarBeacons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA686D1D7E0927008B49E7 /* Debug */,
+				31BA686E1D7E0927008B49E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31BA686F1D7E0927008B49E7 /* Build configuration list for PBXNativeTarget "iCarBeaconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA68701D7E0927008B49E7 /* Debug */,
+				31BA68711D7E0927008B49E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		31BA68721D7E0927008B49E7 /* Build configuration list for PBXNativeTarget "iCarBeaconsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BA68731D7E0927008B49E7 /* Debug */,
+				31BA68741D7E0927008B49E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31BA683C1D7E0926008B49E7 /* Project object */;
+}
